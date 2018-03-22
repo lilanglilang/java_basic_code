@@ -120,7 +120,7 @@ public class Test {
 }
 
  ```
- - 基于接口的实现方式
+ - 基于接口的实现方式  
   ```java
   interface Wine {
     public String getName();
