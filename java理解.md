@@ -29,7 +29,7 @@ double |    8
 
  - . 实现形式 Java实现多态有三个必要条件：继承、重写、向上转型。
  -   基于继承的实现方式
- ```
+ ```java
  class Wine {
     private String name;
 
@@ -121,8 +121,8 @@ public class Test {
 
  ```
  - 基于接口的实现方式
-  ```
-  interface Wine {
+  ```java
+  interface Wine {
     public String getName();
     public void setName(String name);
     public String drink();
@@ -209,8 +209,8 @@ public class Test {
 
   ```
  ### 头痛又经典的程序
- ```
-     public class A {  
+ ```java
+     public class A {  
         public String show(D obj) {  
             return ("A and D");  
         }  
